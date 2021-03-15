@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+%container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+%flex-stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: $openSans;
+    overflow-x: hidden;
+}
